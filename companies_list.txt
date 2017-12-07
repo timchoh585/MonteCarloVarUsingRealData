@@ -1,5 +1,8 @@
-Symbol,Weight or dollar amount (must include $)
-GE,$250
-AAPL,$250
-GS,$250
-OIL,$250
+Symbol
+FB
+BEAT
+AMD
+BAX
+NXTD
+MZOR
+GOOGL
