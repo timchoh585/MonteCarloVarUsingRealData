@@ -1,8 +1,5 @@
-Symbol
-FB
-BEAT
-AMD
-BAX
-NXTD
-MZOR
-GOOGL
+Symbol,Weight or dollar amount (must include $)
+FB,$250
+AAPL,$250
+AMD,$250
+BAX,$250
