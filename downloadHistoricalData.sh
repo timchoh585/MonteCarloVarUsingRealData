@@ -14,7 +14,7 @@ i=0
 oldestCompanies=$(cat companies_list.txt |  egrep -v '^(#.*|\s+)$' | tail -n +2 | cut -d',' -f1)
 for s in $oldestCompanies; do
   #Columns of API data: Date,Open,High,Low,Close,Volume
-  url="https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=$s&apikey=T6SPHY851Z5F4UWO&datatype=csv"
+  url="https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=$s&outputsize=full&apikey=T6SPHY851Z5F4UWO&datatype=csv"
   echo Downloading historical data for $s
   (
   #Curl API Call
